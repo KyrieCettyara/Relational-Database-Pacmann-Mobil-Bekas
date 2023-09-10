@@ -7,7 +7,7 @@ Dalam project ini kita diminta untuk membangun relational database untuk sebuah 
 ## ERD
 Berikut merupakan ERD dari database yang digunakan dalam pembangunan sistem ini
 
-![alt text](https://github.com/KyrieCettyara/Project-Super-Cashier/blob/main/Image/Function.png)
+![alt text](Image/ERD.png)
 
 ## Query untuk Generate Table
 
