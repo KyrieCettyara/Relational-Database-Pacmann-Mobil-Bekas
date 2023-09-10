@@ -148,7 +148,7 @@ SELECT model
 	, bid_date
 	, bid_price
 	, LEAD(bid_date) OVER (PARTITION BY bidder_id ORDER BY bid_date) as next_bid_date
-	, LEAD(bid_price_idr) OVER (PARTITION BY bidder_id ORDER BY bid_date) as next_bid_price_idr
+	, LEAD(bid_price) OVER (PARTITION BY bidder_id ORDER BY bid_date) as next_bid_price_idr
 FROM yaris_bids
 ORDER BY yaris_bids.user_id ASC, bid_date ASC;
 
